@@ -1,4 +1,4 @@
-FROM node:lts-alpine as builder
+FROM node:16.19.0 as builder
 ARG ENVIRONMENT
 ENV CHROME_BIN=chromium
 WORKDIR /app
